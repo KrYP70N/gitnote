@@ -116,3 +116,40 @@ remote add origin [your origin]
 ![Remote URL](./assets/fig-4.png)
 
 3. Once you've completed the setup process, you can verify the status of your repository by using the git status command. This command allows you to see the current Git status of your project. If the connection was successful, you'll receive information about any changes made to your files and their staging status. Conversely, if your project wasn't successfully connected to a Git repository, you'll receive a message indicating that it's not recognized as a Git repository.
+
+
+
+
+## Tracking Changes
+
+The main purpose to using **VCS** is to track changes file in your projects and collaborate on projects with ease.
+Let's find out how to track your changes.
+
+
+#### Uploading your new changes
+
+In this section, We will explore how to upload changes files and content to your git repository.
+
+1. Check the status of your repository to see which files have been modified or are ready to be committed.
+2. Use `git add` command to stage the changes you want to include in the commit. You can stage specific files or all changes in the working directory.
+```
+# Stage specific file
+git add filename
+```
+```
+# Stage all changes
+git add .
+```
+3. Commit the staged changes with a descriptive commit message.
+```
+git commit -m "Your meaningful commit message here"
+```
+4. Push to remote repository.
+```
+git commit -m "Your meaningful commit message here"
+```
+
+
+
+
+
