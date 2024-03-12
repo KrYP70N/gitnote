@@ -2,8 +2,10 @@
 Free open source version control system.
 
 
+
 ### What is version control
 Version control can manage to changes to doc, program and other collections of information.
+
 
 
 ### Terms
@@ -16,10 +18,12 @@ Version control can manage to changes to doc, program and other collections of i
 **pull** : Download changes. 
 
 
+
 ### Install GIT Client in local machine
 
 1. download [git SCM](https://git-scm.com/downloads).
 2. Open your terminal and run `git --verison`. If your installation succeed, you will see git version in termial output.
+
 
 
 ### Setup your git account in local machine
@@ -40,13 +44,14 @@ Tailor your Git configuration to your needs by choosing either **global** or **p
 > For the **project** scope setup you can run back step 1->4 without **--global** flag.
 
 
+
 ### Generate SSH keys
 
 Using SSH with git provides more secure communication. We can set up easily with following steps : 
 
 1. Open `git bash`
 2. check your existing SSH key using. 
-``` ls -al ~/.ssh ```
+```ls -al ~/.ssh ```
 3. If you didn't found related SSH key file, you can generate new one by running:
 ```ssh-keygen -t rsa -b 4096 -C "your.email@example.com"```
 4. Start the SSH agent to manage your SSH key.
@@ -71,4 +76,20 @@ Using SSH with git provides more secure communication. We can set up easily with
 | eval             | evaluate      |
 | -s               | ssh-agent to make it print commands to set environment variables. |
 | ssh-add [path]   | adding SSH key from the path to your `ssh agent` |
-| cat              | 
+| cat              | concatenate and display the contents of files |
+
+
+
+### Creating repository
+
+1. Open `[github](https://github.com/)` from your browser.
+2. Click `+` sign from the right side menu. 
+3. Click `New repository`.
+![Create New Repo](./assets/fig-1.png)
+4. Enter `repository name` and `repository description(Optional)`.
+![Repo Name and Desc](./assets/fig-2.png)
+5. Base on your situration fill up additional information such as `public or private` repo, `add readme file` and `license`.
+![Additional info](./assets/fig-3.png)
+6. Click `Create repository` to create your new repository.
+
+
