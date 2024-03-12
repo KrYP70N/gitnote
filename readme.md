@@ -80,16 +80,39 @@ Using SSH with git provides more secure communication. We can set up easily with
 
 
 
+
 ### Creating repository
 
 1. Open `[github](https://github.com/)` from your browser.
 2. Click `+` sign from the right side menu. 
 3. Click `New repository`.
 ![Create New Repo](./assets/fig-1.png)
+
 4. Enter `repository name` and `repository description(Optional)`.
 ![Repo Name and Desc](./assets/fig-2.png)
+
 5. Base on your situration fill up additional information such as `public or private` repo, `add readme file` and `license`.
 ![Additional info](./assets/fig-3.png)
+
 6. Click `Create repository` to create your new repository.
 
 
+
+
+### Connect your project with git repository
+
+To perform various tasks related to version control, you'll need to connect your project to a Git repository.
+You can easily connect by following steps.
+
+1. Initialize git project using
+```
+git init
+```
+
+2. Add remote link with follwing command. You can check remote url in `code` dropdown under your repository section. Check detail at figure.
+```
+remote add origin [your origin]
+```
+![Remote URL](./assets/fig-4.png)
+
+3. Once you've completed the setup process, you can verify the status of your repository by using the git status command. This command allows you to see the current Git status of your project. If the connection was successful, you'll receive information about any changes made to your files and their staging status. Conversely, if your project wasn't successfully connected to a Git repository, you'll receive a message indicating that it's not recognized as a Git repository.
