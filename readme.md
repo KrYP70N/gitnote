@@ -19,6 +19,8 @@ Version control can manage to changes to doc, program and other collections of i
 
 
 
+## Setup Guide
+
 ### Install GIT Client in local machine
 
 1. download [git SCM](https://git-scm.com/downloads).
@@ -86,12 +88,15 @@ Using SSH with git provides more secure communication. We can set up easily with
 1. Open `[github](https://github.com/)` from your browser.
 2. Click `+` sign from the right side menu. 
 3. Click `New repository`.
+
 ![Create New Repo](./assets/fig-1.png)
 
 4. Enter `repository name` and `repository description(Optional)`.
+
 ![Repo Name and Desc](./assets/fig-2.png)
 
 5. Base on your situration fill up additional information such as `public or private` repo, `add readme file` and `license`.
+
 ![Additional info](./assets/fig-3.png)
 
 6. Click `Create repository` to create your new repository.
@@ -113,6 +118,7 @@ git init
 ```
 remote add origin [your origin]
 ```
+
 ![Remote URL](./assets/fig-4.png)
 
 3. Once you've completed the setup process, you can verify the status of your repository by using the git status command. This command allows you to see the current Git status of your project. If the connection was successful, you'll receive information about any changes made to your files and their staging status. Conversely, if your project wasn't successfully connected to a Git repository, you'll receive a message indicating that it's not recognized as a Git repository.
@@ -124,6 +130,7 @@ remote add origin [your origin]
 
 The main purpose to using **VCS** is to track changes file in your projects and collaborate on projects with ease.
 Let's find out how to track your changes.
+
 
 
 #### Uploading your new changes
@@ -146,10 +153,11 @@ git commit -m "Your meaningful commit message here"
 ```
 4. Push to remote repository.
 ```
-git commit -m "Your meaningful commit message here"
+git push
 ```
 
 
 
+#### Updating changes to your local
 
-
+One of the most im
