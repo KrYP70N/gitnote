@@ -160,4 +160,16 @@ git push
 
 #### Updating changes to your local
 
-One of the most im
+One of the most important part of the VCS is sync data with local and cloud (hosted repository).
+You can sync by following steps.
+
+1. Check update local repository with hosted repository.
+```
+git fetch
+```
+
+2. If you found any changes, you just need to sync with these command.
+```
+git merge origin/main
+```
+
