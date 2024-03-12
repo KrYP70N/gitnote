@@ -10,12 +10,12 @@ Version control can manage to changes to doc, program and other collections of i
 
 ### Terms
 
-**VSC** : Version control system
-**clone** : bring a repository that's hosted in vcs provider to your local machine
-**add** : Add changes to your next commit.
-**commit** : Add change note to your repository.
-**push** : Upload commit to your remote repo.
-**pull** : Download changes. 
+1. **VSC** : Version control system
+2. **clone** : bring a repository that's hosted in vcs provider to your local machine
+3. **add** : Add changes to your next commit.
+4. **commit** : Add change note to your repository.
+5. **push** : Upload commit to your remote repo.
+6. **pull** : Download changes. 
 
 
 
