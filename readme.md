@@ -116,7 +116,7 @@ git init
 
 2. Add remote link with follwing command. You can check remote url in `code` dropdown under your repository section. Check detail at figure.
 ```
-remote add origin [your origin]
+git remote add url [your remote url]
 ```
 
 ![Remote URL](./assets/fig-4.png)
